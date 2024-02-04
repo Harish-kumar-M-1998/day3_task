@@ -8,6 +8,7 @@ for (let key of objKeys)
 {
 let value1=obj1[key]
 let value2=obj2[key]
+
 if (value1 !== value2){
   isCorrect = false;
 }
